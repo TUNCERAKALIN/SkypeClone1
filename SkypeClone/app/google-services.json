@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235482459461",
+    "project_id": "skypeclone-439bb",
+    "storage_bucket": "skypeclone-439bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235482459461:android:ab32411df55f52c95f222c",
+        "android_client_info": {
+          "package_name": "com.example.skypeclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235482459461-udhkdn80i5pp0tboo1c6cvp32oik2lqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoRDk6x54DHm_O_8Zh_Fjkj-n2x9Ea31o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235482459461-udhkdn80i5pp0tboo1c6cvp32oik2lqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#292D36"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#00aff0"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="40dp">
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name-Surname"
+            android:textColor="@color/white"
+            android:textColorHint="#fff"
+            android:layout_marginRight="30dp"
+            android:padding="12dp"
+            android:drawablePadding="30dp"
+            android:drawableLeft="@drawable/person_icon"
+            android:background="@drawable/edt_box_design"
+            android:layout_marginLeft="30dp"/>
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#fff"
+            android:layout_marginRight="30dp"
+            android:padding="12dp"
+            android:drawablePadding="30dp"
+            android:drawableLeft="@drawable/email_icon"
+            android:background="@drawable/edt_box_design"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="#fff"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="30dp"
+            android:drawableLeft="@drawable/lock_icon"
+            android:layout_marginRight="30dp"
+            android:padding="12dp"
+            android:background="@drawable/edt_box_design"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            />
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edt_box_design"
+            android:text="Register"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
