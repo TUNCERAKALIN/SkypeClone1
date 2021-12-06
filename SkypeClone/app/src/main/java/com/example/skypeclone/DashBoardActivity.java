@@ -24,6 +24,7 @@ public class DashBoardActivity extends AppCompatActivity {
         buttonJoin = findViewById(R.id.btn_join);
 
         URI serverUrl;
+        //
 
         try {
             serverUrl = new URI("https://meet.jit.si");
